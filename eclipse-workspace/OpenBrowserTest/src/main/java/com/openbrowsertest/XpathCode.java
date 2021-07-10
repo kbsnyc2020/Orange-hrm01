@@ -1,0 +1,17 @@
+package com.openbrowsertest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class XpathCode {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://courses.letskodeit.com/practice");
+		WebElement honda = driver.findElement(By.xpath("//*[@id=\"hondaradio\"]"));
+		honda.click();	
+	}
+
+}
