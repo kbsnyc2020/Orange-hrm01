@@ -1,0 +1,6 @@
+[filesystem "Oracle Corporation|15.0.2|213126145"]
+	timestampResolution = 1061 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "AdoptOpenJDK|1.8.0_292|213126145"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds
